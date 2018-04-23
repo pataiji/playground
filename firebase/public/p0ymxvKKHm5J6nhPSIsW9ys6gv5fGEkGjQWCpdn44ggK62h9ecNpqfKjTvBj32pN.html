@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Presentation</title>
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/github-markdown.css">
+    <style>
+      .markdown-body {
+        box-sizing: border-box;
+        min-width: 1200px;
+        /* max-width: 980px; */
+        padding: 45px;
+      }
+
+      @media (max-width: 767px) {
+        .markdown-body {
+          padding: 15px;
+        }
+      }
+      body {
+        position: relative;
+      }
+      #block-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: auto;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .row {
+        display: inline-flex;
+        width: 100%;
+      }
+      .block {
+        display: inline-flex;
+        flex-grow: 1;
+        opacity: 0;
+        background-color: black;
+      }
+      #main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        min-height: 100vh;
+      }
+      .page {
+        font-size: 300%;
+      }
+      .page h1, .page h2 {
+        text-align: center;
+        border-bottom: none;
+      }
+      .page h1 img {
+        width: 70%;
+      }
+      .page h2 img {
+        width: 5%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main"></div>
+    <div id="block-container"></div>
+
+    <span style="display:none;" id="md">
+      # Next-gen presentation
+      ---
+      ## 天野 太智 (@pataiji ![pataiji](./img/pataiji.jpg))
+      - ライフスタイルメディア事業部にいます
+      - 最近車がとても欲しい
+      - 今月第２子が産まれました
+      ---
+      # ![QR](./img/qr.png)
+      ---
+      ## 私の発表がつまんなかったら
+      ## 目が死んでる人のイラストをタップしてください
+      ---
+      # なにごとか
+      ---
+      # リアクションが欲しい
+      ---
+      # プレゼンテーション
+      ---
+      > プレゼンテーション (英語: presentation) とは、情報伝達手段の一種で、聴衆に対して情報を提示し、理解・納得を得る行為を指す（宣伝等）。
+
+      ※ Wikipediaより引用
+
+      ---
+      # コミュニケーション
+      ---
+      > 「コミュニケーション」というのは、情報の伝達だけが起きれば充分に成立したとは見なされておらず、人間と人間の間で、《意志の疎通》が行われたり、《心や気持ちの通い合い》が行われたり、《互いに理解し合う》ことが起きて、はじめてコミュニケーションが成立した、といった説明を補っている
+
+      ※ Wikipediaより引用
+
+      ---
+      ## プレゼンテーションは
+      ## コミュニケーション手法の一つである
+      ---
+      > コミュニケーションを発信と応答という観点から見た場合、ある個体のアクション（発信）に応じて別の個体にリアクション（応答）が生じた場合、両者の間にコミュニケーションが成立していることになる
+
+      ※ Wikipediaより引用
+
+      ---
+      ## プレゼン(コミュニケーション)にはリアクションが大事
+      ---
+      # リアクション受け取れてますか？
+      ---
+      ## 表情を読む
+      ## 拍手を受ける
+      ## 話しかけちゃう
+      ## 方法は色々あります
+      ---
+      # ぶっちゃけどれもしんどい
+      ---
+      # そういうことです
+      ---
+      # 一応、、、、技術の話も一瞬だけ
+      # ![Firebase](./img/firebase.png)
+      ---
+      ## この仕組みがあればもうプレゼンで緊張しない
+      ---
+      ## 発表できているならば
+      ## きっと興味を持ってくれているということだから
+      ---
+      ## ＿人人人人人人人人人人人人人人人人人人人＿
+      ## ＞　これこそ次世代のプレゼンテーション　＜
+      ## ￣Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y￣
+
+      ---
+      # ありがとうございました
+    </span>
+    <audio id="bomb" src="./audio/short_bomb.mp3"></audio>
+    <script src="./js/bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Client</title>
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <style>
+      #container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        min-height: 100vh;
+      }
+      #badButton {
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="nicknameSection" style="display: none;">
+        <label>Nickname
+          <input name="nickname" id="nickname">
+          <input type="submit" value="Start" id="submit">
+        </label>
+      </div>
+      <div id="badButtonSection" style="display: none;">
+        <input type="image" src="./img/hyoujou_shinda_me_man.png" id="badButton">
+        <button id="autoBadButton" style="display:none;">連射</button>
+      </div>
+    </div>
+
+    <script src="./js/bundle_client.js"></script>
+  </body>
+</html>
